@@ -1,0 +1,7 @@
+interface:
+  display_name: "宝宝喂养日报"
+  short_description: "整理新生儿喂养记录并生成可视化日报"
+  default_prompt: "Use $baby-feeding-report to 整理下面的新生儿喂养护理记录，结合 baby-info.md，生成文件报告并同步 README.md。"
+
+policy:
+  allow_implicit_invocation: true
